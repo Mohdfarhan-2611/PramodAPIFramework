@@ -6,7 +6,7 @@ public class Booking {
     private String lastname;
     private Integer totalprice;
     private Boolean depositpaid;
-    private BookingDates bookingDates;
+    private Bookingdates bookingdates;
     private String additionalneeds;
 
     public String getFirstname() {
@@ -41,12 +41,12 @@ public class Booking {
         this.depositpaid = depositpaid;
     }
 
-    public BookingDates getBookingDates() {
-        return bookingDates;
+    public Bookingdates getBookingdates() {
+        return bookingdates;
     }
 
-    public void setBookingDates(BookingDates bookingDates) {
-        this.bookingDates = bookingDates;
+    public void setBookingdates(Bookingdates bookingdates) {
+        this.bookingdates = bookingdates;
     }
 
     public String getAdditionalneeds() {

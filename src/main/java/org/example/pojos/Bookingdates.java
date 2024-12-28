@@ -1,6 +1,6 @@
 package org.example.pojos;
 
-public class BookingDates {
+public class Bookingdates {
 
     private String checkin;
     private String checkout;
